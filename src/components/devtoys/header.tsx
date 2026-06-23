@@ -11,10 +11,12 @@ export function Header() {
     <header className="flex h-12 shrink-0 items-center justify-between border-b px-3">
       <div className="flex items-center gap-2">
         <Logo className="size-6" />
-        <span className="text-sm font-semibold tracking-tight">DevToys</span>
-        <span className="hidden text-xs text-muted-foreground sm:inline">
-          · 23 dev tools. One bookmark.
-        </span>
+        <div className="flex items-baseline gap-2">
+          <span className="text-sm font-semibold tracking-tight">DevToys</span>
+          <span className="hidden text-xs text-muted-foreground sm:inline">
+            · 26 dev tools. One bookmark.
+          </span>
+        </div>
       </div>
       <div className="flex items-center gap-1">
         <Button

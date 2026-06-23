@@ -1,6 +1,6 @@
 # DevToys
 
-**23 dev tools. One bookmark. Your data never leaves your browser.**
+**26 dev tools. One bookmark. Your data never leaves your browser.**
 
 A clean, fast, 100% client-side developer toolbox. No accounts, no tracking, no
 uploads, no ads. Just paste, click, copy.
@@ -34,6 +34,15 @@ Live demo: _add your Vercel URL here after deploy_
 | 21 | **URL Parser** | Paste a URL → see protocol/host/port/path/query-params/hash broken out into a table |
 | 22 | **HTTP Status Codes** | Searchable reference of 62 status codes (1xx–5xx) with meaning + category filter |
 | 23 | **String Escape** | Escape/unescape for JSON, regex, HTML, SQL, and shell — one tool, 5 formats |
+| 24 | **Image → Base64** | Drag/drop/paste an image → data URI + CSS + HTML snippets |
+| 25 | **JSON ↔ CSV** | Convert an array of objects between JSON and CSV (RFC-4180 quoted fields) |
+| 26 | **Line Sort & Dedupe** | Sort A-Z / 0-9 / by length, dedupe, reverse, or shuffle lines |
+
+## Keyboard Shortcuts
+
+- `1`–`9`: jump to tools 1 through 9
+- `0`: jump to tool 10
+- `⌘1`–`⌘0` / `Ctrl1`–`Ctrl0`: same, works even when typing in a field
 
 ## Tech Stack
 

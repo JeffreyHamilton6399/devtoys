@@ -23,6 +23,9 @@ import {
   Globe,
   Server,
   Quote,
+  Image as ImageIcon,
+  Table,
+  ListOrdered,
   type LucideIcon,
 } from "lucide-react";
 
@@ -49,6 +52,9 @@ import { SlugGenerator } from "@/components/tools/slug-generator";
 import { UrlParser } from "@/components/tools/url-parser";
 import { HttpStatusCodes } from "@/components/tools/http-status-codes";
 import { StringEscape } from "@/components/tools/string-escape";
+import { ImageToBase64 } from "@/components/tools/image-to-base64";
+import { JsonCsvConverter } from "@/components/tools/json-csv-converter";
+import { LineSorter } from "@/components/tools/line-sorter";
 
 export interface Tool {
   id: string;
@@ -84,6 +90,10 @@ export const TOOLS: Tool[] = [
   { id: "url-parse", name: "URL Parser", icon: Globe, component: UrlParser },
   { id: "http", name: "HTTP Codes", icon: Server, component: HttpStatusCodes },
   { id: "escape", name: "Escape", icon: Quote, component: StringEscape },
+  // Fourth batch (3)
+  { id: "img-base64", name: "Image→B64", icon: ImageIcon, component: ImageToBase64 },
+  { id: "json-csv", name: "JSON↔CSV", icon: Table, component: JsonCsvConverter },
+  { id: "line-sort", name: "Line Sort", icon: ListOrdered, component: LineSorter },
 ];
 
 export const TOOLS_BY_ID: Record<string, Tool> = Object.fromEntries(

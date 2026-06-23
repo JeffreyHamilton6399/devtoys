@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DevToys — 23 dev tools. One bookmark.",
+  title: "DevToys — 26 dev tools. One bookmark.",
   description:
-    "A clean, fast, client-side developer toolbox. 23 tools: JSON formatter, Base64, JWT decoder, regex tester, UUID generator, hash generator, color converter, Markdown preview, JSON-to-TypeScript, password generator, URL parser, HTTP status codes, and more. Your data never leaves your browser.",
+    "A clean, fast, client-side developer toolbox. 26 tools: JSON formatter, Base64, JWT decoder, regex tester, UUID generator, hash generator, color converter, Markdown preview, JSON-to-TypeScript, password generator, URL parser, HTTP status codes, image to Base64, JSON to CSV, and more. Your data never leaves your browser.",
   keywords: [
     "DevToys",
     "developer tools",
