@@ -1,0 +1,37 @@
+// Compact wordlist for passphrase generation (~256 common, easy-to-type words).
+// ~8 bits of entropy per word. 4 words = 32 bits, 6 words = 48 bits, 8 words = 64 bits.
+// Curated to avoid homophones, ambiguous characters, and uncommon spellings.
+
+export const WORDLIST: string[] = [
+  "apple", "happy", "ocean", "river", "stone", "light", "night", "music",
+  "cloud", "tiger", "lemon", "bread", "house", "plant", "smile", "green",
+  "table", "chair", "world", "earth", "fire", "water", "wind", "snow",
+  "moon", "star", "sun", "sky", "tree", "leaf", "rock", "sand",
+  "book", "word", "code", "data", "byte", "chip", "node", "link",
+  "game", "play", "team", "sport", "ball", "race", "swim", "walk",
+  "horse", "cat", "dog", "bird", "fish", "deer", "bear", "wolf",
+  "fox", "rabbit", "mouse", "snake", "duck", "goat", "cow", "pig",
+  "red", "blue", "gold", "silver", "black", "white", "purple", "pink",
+  "fast", "slow", "warm", "cold", "soft", "hard", "loud", "quiet",
+  "city", "town", "road", "path", "park", "farm", "hill", "lake",
+  "north", "south", "east", "west", "above", "below", "front", "back",
+  "early", "later", "now", "then", "today", "tomorrow", "always", "never",
+  "open", "close", "start", "stop", "begin", "finish", "enter", "leave",
+  "think", "learn", "teach", "study", "write", "read", "speak", "listen",
+  "build", "make", "craft", "draw", "paint", "sing", "dance", "cook",
+  "garden", "forest", "desert", "island", "beach", "mountain", "valley", "canyon",
+  "summer", "winter", "spring", "autumn", "morning", "evening", "midnight", "noon",
+  "fresh", "ripe", "sweet", "sour", "spicy", "bland", "tasty", "warm",
+  "lucky", "brave", "kind", "wise", "calm", "sharp", "quick", "strong",
+  "five", "seven", "three", "eight", "twelve", "twenty", "fifty", "hundred",
+  "minute", "second", "moment", "hour", "week", "month", "year", "decade",
+  "rocket", "planet", "comet", "galaxy", "meteor", "crater", "orbit", "space",
+  "silver", "copper", "iron", "steel", "glass", "paper", "wood", "cotton",
+  "mirror", "window", "door", "floor", "wall", "ceiling", "roof", "stair",
+  "button", "switch", "wheel", "lever", "wire", "cable", "pipe", "valve",
+  "engine", "motor", "battery", "panel", "screen", "speaker", "camera", "sensor",
+  "puzzle", "riddle", "secret", "magic", "wonder", "dream", "wish", "hope",
+  "travel", "journey", "voyage", "trail", "route", "map", "compass", "guide",
+  "happy", "lucky", "merry", "jolly", "bright", "shiny", "fancy", "spiffy",
+  "ocean", "wave", "tide", "current", "depth", "shore", "cliff", "reef",
+];

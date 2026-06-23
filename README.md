@@ -1,6 +1,6 @@
 # DevToys
 
-**26 dev tools. One bookmark. Your data never leaves your browser.**
+**40 dev tools. One bookmark. Your data never leaves your browser.**
 
 A clean, fast, 100% client-side developer toolbox. No accounts, no tracking, no
 uploads, no ads. Just paste, click, copy.
@@ -37,9 +37,27 @@ Live demo: _add your Vercel URL here after deploy_
 | 24 | **Image → Base64** | Drag/drop/paste an image → data URI + CSS + HTML snippets |
 | 25 | **JSON ↔ CSV** | Convert an array of objects between JSON and CSV (RFC-4180 quoted fields) |
 | 26 | **Line Sort & Dedupe** | Sort A-Z / 0-9 / by length, dedupe, reverse, or shuffle lines |
+| 27 | **HEX ↔ ASCII** | Convert hex bytes to ASCII text and back |
+| 28 | **Unicode Inspector** | Inspect a character's codepoint, UTF-8, UTF-16, HTML entity |
+| 29 | **Tab ↔ Spaces** | Convert tabs to spaces and back, configurable width |
+| 30 | **Whitespace Normalizer** | Collapse spaces, trim lines, normalize line endings |
+| 31 | **String Reverser** | Reverse text by characters, words, or lines |
+| 32 | **CSS Unit Converter** | Convert px ↔ rem ↔ em ↔ pt ↔ vw with base size |
+| 33 | **Date Calculator** | Add/subtract days, calculate date differences |
+| 34 | **Unix Permissions** | Convert Unix permissions: numeric ↔ symbolic |
+| 35 | **MIME Types** | Searchable file extension → MIME type reference |
+| 36 | **Time Zone Converter** | Convert a time across major world time zones |
+| 37 | **Caesar / ROT13** | Caesar cipher with adjustable shift, including ROT13 |
+| 38 | **Passphrase Generator** | Generate memorable Diceware-style word passphrases |
+| 39 | **IPv4 Subnet Calculator** | CIDR calculator: network, broadcast, host range, mask |
+| 40 | **Hash Identifier** | Identify a hash's likely algorithm by length and charset |
 
-## Keyboard Shortcuts
+## Search & Keyboard Shortcuts
 
+- **Search bar** at the top of the sidebar — fuzzy-matches tool names and descriptions
+- `/`: focus the search bar
+- `Esc`: clear search and blur
+- `Enter` in search: jump to first match
 - `1`–`9`: jump to tools 1 through 9
 - `0`: jump to tool 10
 - `⌘1`–`⌘0` / `Ctrl1`–`Ctrl0`: same, works even when typing in a field

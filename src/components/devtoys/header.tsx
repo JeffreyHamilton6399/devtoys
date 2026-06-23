@@ -14,7 +14,7 @@ export function Header() {
         <div className="flex items-baseline gap-2">
           <span className="text-sm font-semibold tracking-tight">DevToys</span>
           <span className="hidden text-xs text-muted-foreground sm:inline">
-            · 26 dev tools. One bookmark.
+            · 40 dev tools. One bookmark.
           </span>
         </div>
       </div>
