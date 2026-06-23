@@ -1,6 +1,6 @@
 # DevToys
 
-**20 dev tools. One bookmark. Your data never leaves your browser.**
+**23 dev tools. One bookmark. Your data never leaves your browser.**
 
 A clean, fast, 100% client-side developer toolbox. No accounts, no tracking, no
 uploads, no ads. Just paste, click, copy.
@@ -31,6 +31,9 @@ Live demo: _add your Vercel URL here after deploy_
 | 18 | **Base Converter** | bin / oct / dec / hex / base36 / base58 / base64 — BigInt-safe, live updates |
 | 19 | **Text Stats** | Word/char/line/sentence/paragraph count + reading/speaking time + longest word |
 | 20 | **Slug Generator** | Text → URL-safe slug, Unicode-aware (café → cafe, naïve → naive) |
+| 21 | **URL Parser** | Paste a URL → see protocol/host/port/path/query-params/hash broken out into a table |
+| 22 | **HTTP Status Codes** | Searchable reference of 62 status codes (1xx–5xx) with meaning + category filter |
+| 23 | **String Escape** | Escape/unescape for JSON, regex, HTML, SQL, and shell — one tool, 5 formats |
 
 ## Tech Stack
 

@@ -11,18 +11,6 @@ import {
 import { TOOLS } from "@/components/devtoys/tool-registry";
 import { cn } from "@/lib/utils";
 
-// The 8 new tools added in the second pass — show a small "new" dot
-const NEW_IDS = new Set([
-  "markdown",
-  "json-ts",
-  "password",
-  "case",
-  "html-ent",
-  "base",
-  "stats",
-  "slug",
-]);
-
 interface SidebarProps {
   active: string;
   onChange: (id: string) => void;
@@ -39,7 +27,6 @@ export function Sidebar({ active, onChange }: SidebarProps) {
           {TOOLS.map((tool, i) => {
             const Icon = tool.icon;
             const isActive = active === tool.id;
-            const isNew = NEW_IDS.has(tool.id);
             return (
               <li key={tool.id}>
                 <button
@@ -60,12 +47,6 @@ export function Sidebar({ active, onChange }: SidebarProps) {
                   </span>
                   <Icon className="size-3.5 shrink-0" />
                   <span className="flex-1 truncate">{tool.name}</span>
-                  {isNew && (
-                    <span
-                      className="size-1.5 shrink-0 rounded-full bg-emerald-500"
-                      title="New tool"
-                    />
-                  )}
                 </button>
               </li>
             );
@@ -93,11 +74,6 @@ export function MobileToolSelect({ active, onChange }: SidebarProps) {
               <span className="flex items-center gap-2">
                 <Icon className="size-3.5" />
                 {tool.name}
-                {NEW_IDS.has(tool.id) && (
-                  <span className="ml-1 rounded bg-emerald-500/15 px-1 text-[9px] font-medium uppercase text-emerald-600 dark:text-emerald-400">
-                    new
-                  </span>
-                )}
               </span>
             </SelectItem>
           );

@@ -20,6 +20,9 @@ import {
   Calculator,
   AlignLeft,
   AtSign,
+  Globe,
+  Server,
+  Quote,
   type LucideIcon,
 } from "lucide-react";
 
@@ -43,6 +46,9 @@ import { HtmlEntities } from "@/components/tools/html-entities";
 import { BaseConverter } from "@/components/tools/base-converter";
 import { TextStats } from "@/components/tools/text-stats";
 import { SlugGenerator } from "@/components/tools/slug-generator";
+import { UrlParser } from "@/components/tools/url-parser";
+import { HttpStatusCodes } from "@/components/tools/http-status-codes";
+import { StringEscape } from "@/components/tools/string-escape";
 
 export interface Tool {
   id: string;
@@ -65,7 +71,7 @@ export const TOOLS: Tool[] = [
   { id: "lorem", name: "Lorem", icon: Type, component: LoremIpsum },
   { id: "cron", name: "Cron", icon: Calendar, component: CronParser },
   { id: "diff", name: "Diff", icon: GitCompare, component: DiffChecker },
-  // New 8
+  // Second batch (8)
   { id: "markdown", name: "Markdown", icon: FileText, component: MarkdownPreview },
   { id: "json-ts", name: "JSON→TS", icon: FileCode2, component: JsonToTs },
   { id: "password", name: "Password", icon: Lock, component: PasswordGenerator },
@@ -74,6 +80,10 @@ export const TOOLS: Tool[] = [
   { id: "base", name: "Base", icon: Calculator, component: BaseConverter },
   { id: "stats", name: "Text Stats", icon: AlignLeft, component: TextStats },
   { id: "slug", name: "Slug", icon: AtSign, component: SlugGenerator },
+  // Third batch (3)
+  { id: "url-parse", name: "URL Parser", icon: Globe, component: UrlParser },
+  { id: "http", name: "HTTP Codes", icon: Server, component: HttpStatusCodes },
+  { id: "escape", name: "Escape", icon: Quote, component: StringEscape },
 ];
 
 export const TOOLS_BY_ID: Record<string, Tool> = Object.fromEntries(
