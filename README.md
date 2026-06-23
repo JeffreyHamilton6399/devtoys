@@ -1,6 +1,6 @@
 # DevToys
 
-**15 dev tools. One bookmark. Your data never leaves your browser.**
+**20 dev tools. One bookmark. Your data never leaves your browser.**
 
 A clean, fast, 100% client-side developer toolbox. No accounts, no tracking, no
 uploads, no ads. Just paste, click, copy.
@@ -23,6 +23,14 @@ Live demo: _add your Vercel URL here after deploy_
 | 10 | **Lorem Ipsum** | Generate paragraphs, sentences, or words of classic placeholder text |
 | 11 | **Cron Parser** | Parse 5-field cron expressions into human-readable schedules + next 5 runs |
 | 12 | **Diff Checker** | Line-by-line or word-by-word diff with additions/removals highlighted |
+| 13 | **Markdown Preview** | Paste Markdown → see rendered HTML live (headings, lists, code, tables) |
+| 14 | **JSON → TypeScript** | Paste any JSON → auto-generated TS interfaces (nested, arrays, optional) |
+| 15 | **Password Generator** | Length slider, char-set toggles, strength meter, batch x10/x50, crypto-secure |
+| 16 | **Case Converter** | camelCase / PascalCase / snake_case / kebab-case / SCREAMING_SNAKE / etc. |
+| 17 | **HTML Entities** | Encode/decode HTML entities — named (`&amp;`) + numeric (`&#39;`) + 30+ extended |
+| 18 | **Base Converter** | bin / oct / dec / hex / base36 / base58 / base64 — BigInt-safe, live updates |
+| 19 | **Text Stats** | Word/char/line/sentence/paragraph count + reading/speaking time + longest word |
+| 20 | **Slug Generator** | Text → URL-safe slug, Unicode-aware (café → cafe, naïve → naive) |
 
 ## Tech Stack
 

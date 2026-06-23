@@ -13,7 +13,7 @@ export function Header() {
         <Logo className="size-6" />
         <span className="text-sm font-semibold tracking-tight">DevToys</span>
         <span className="hidden text-xs text-muted-foreground sm:inline">
-          · 15 dev tools. One bookmark.
+          · 20 dev tools. One bookmark.
         </span>
       </div>
       <div className="flex items-center gap-1">
