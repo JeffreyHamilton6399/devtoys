@@ -18,12 +18,11 @@ export function Header() {
           </span>
         </div>
       </div>
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-2">
         <Button
           asChild
           size="sm"
-          variant="ghost"
-          className="h-7 gap-1.5 rounded-full px-3 text-rose-600 hover:bg-rose-500/10 hover:text-rose-700 dark:text-rose-400 dark:hover:bg-rose-500/10 dark:hover:text-rose-300"
+          className="h-7 gap-1.5 rounded-full bg-secondary px-3 text-rose-600 hover:bg-secondary/80 hover:text-rose-700 dark:text-rose-400 dark:hover:bg-secondary/80 dark:hover:text-rose-300"
         >
           <a
             href="https://buymeacoffee.com/jeffreyscof"

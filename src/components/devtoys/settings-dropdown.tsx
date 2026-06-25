@@ -34,16 +34,16 @@ export function SettingsDropdown() {
     <>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button variant="ghost" size="icon" className="size-7 rounded-full">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="size-7 rounded-full border border-border bg-transparent"
+          >
             <Settings className="size-4" />
             <span className="sr-only">Settings</span>
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end" className="w-44">
-          <DropdownMenuLabel className="text-xs text-muted-foreground">
-            Settings
-          </DropdownMenuLabel>
-          <DropdownMenuSeparator />
           <DropdownMenuItem
             onClick={() => setTheme(isDark ? "light" : "dark")}
           >
@@ -57,13 +57,16 @@ export function SettingsDropdown() {
               </>
             )}
           </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuLabel className="text-xs text-muted-foreground">
+            Legal
+          </DropdownMenuLabel>
           <DropdownMenuItem onClick={() => setPrivacyOpen(true)}>
-            <Shield className="size-4" /> Privacy
+            <Shield className="size-4" /> Privacy Policy
           </DropdownMenuItem>
           <DropdownMenuItem onClick={() => setTermsOpen(true)}>
-            <FileText className="size-4" /> Terms
+            <FileText className="size-4" /> Terms of Service
           </DropdownMenuItem>
-          <DropdownMenuSeparator />
           <DropdownMenuItem asChild>
             <a
               href="https://github.com/JeffreyHamilton6399"
@@ -80,7 +83,7 @@ export function SettingsDropdown() {
       <Dialog open={privacyOpen} onOpenChange={setPrivacyOpen}>
         <DialogContent className="max-w-md">
           <DialogHeader>
-            <DialogTitle>Privacy</DialogTitle>
+            <DialogTitle>Privacy Policy</DialogTitle>
             <DialogDescription>
               100% client-side. Your data never leaves your browser.
             </DialogDescription>
@@ -102,7 +105,7 @@ export function SettingsDropdown() {
               device.
             </p>
             <p className="font-medium text-foreground">
-              15 dev tools. One bookmark. Your data never leaves your browser.
+              40 dev tools. One bookmark. Your data never leaves your browser.
             </p>
           </div>
         </DialogContent>
@@ -111,7 +114,7 @@ export function SettingsDropdown() {
       <Dialog open={termsOpen} onOpenChange={setTermsOpen}>
         <DialogContent className="max-w-md">
           <DialogHeader>
-            <DialogTitle>Terms</DialogTitle>
+            <DialogTitle>Terms of Service</DialogTitle>
             <DialogDescription>
               Use DevToys freely. No warranty, no liability.
             </DialogDescription>
