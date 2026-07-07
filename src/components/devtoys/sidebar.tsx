@@ -60,7 +60,7 @@ export function Sidebar({ active, onChange }: SidebarProps) {
   return (
     <nav
       aria-label="Tools"
-      className="hidden w-44 shrink-0 flex-col border-r bg-muted/20 md:flex"
+      className="hidden w-44 shrink-0 flex-col border-r bg-muted/30 md:flex"
     >
       <div className="border-b p-2">
         <ToolSearch
